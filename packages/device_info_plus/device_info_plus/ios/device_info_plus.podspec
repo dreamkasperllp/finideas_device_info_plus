@@ -16,8 +16,8 @@ Downloaded by pub (not CocoaPods).
   s.documentation_url = 'https://pub.dev/packages/device_info_plus'
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
+  s.resources = ['Classes/**/*', 'PrivacyInfo.xcprivacy']  # Added this line
   s.dependency 'Flutter'
   s.platform = :ios, '11.0'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 end
-
