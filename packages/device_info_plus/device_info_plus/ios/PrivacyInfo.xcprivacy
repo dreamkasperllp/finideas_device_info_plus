@@ -1,2 +1,13 @@
-<key>Device Information</key>
-<string>Collects device information for app functionality, such as device model and OS version. No personal information is collected.</string>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PurposeString</key>
+    <string>Collects device information for app functionality, such as device model and OS version. No personal information is collected.</string>
+    <key>UsageDescription</key>
+    <dict>
+        <key>DeviceInfo</key>
+        <string>Collects non-personal device information for app functionality.</string>
+    </dict>
+</dict>
+</plist>
